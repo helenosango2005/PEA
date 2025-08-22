@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PEA - Programa de Extensão Acadêmica</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Animate.css para efeitos prontos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <!-- AOS (Animate on Scroll) -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <meta name="description" content="PEA – Programa de Extensão Acadêmica. A maior plataforma educacional de Angola, conectando estudantes e empresas em toda África.">
+  <meta property="og:title" content="PEA - Programa de Extensão Acadêmica">
+  <meta property="og:description" content="Capacitação de estudantes com cursos, workshops e oportunidades.">
+  <meta property="og:image" content="imagens/IMG-20250818-WA0176.jpg">
+  <meta property="og:type" content="website">
+  <style>
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-scroll {
+      display: flex;
+      width: max-content;
+      animation: scroll 25s linear infinite;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Hero -->
+  <section class="relative bg-cover bg-center text-white min-h-screen flex items-center justify-center text-center" 
+    style="background-image: url('imagens/WhatsApp\ Image\ 2025-08-21\ at\ 23.08.41.jpeg');">
+    
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+    <div class="relative z-10 max-w-3xl mx-auto animate__animated animate__fadeInDown">
+      <h1 class="text-5xl font-bold mb-4 drop-shadow-lg">PEA – Conectando Educação e Futuro</h1>
+      <p class="text-lg md:text-xl mb-6 animate__animated animate__fadeInUp animate__delay-1s">
+        A maior plataforma educacional de Angola, expandindo para toda África.
+      </p>
+      <a href="#inscricao" 
+         class="bg-gradient-to-r from-green-500 to-yellow-400 text-white font-semibold px-8 py-4 rounded-full shadow-lg 
+                hover:scale-110 hover:shadow-2xl transition transform duration-300 ease-in-out">
+        Quero fazer parte
+      </a>
+    </div>
+  </section>
+
+    <!-- Sobre -->
+  <section class="py-20 relative text-center bg-gradient-to-r from-green-50 via-yellow-50 to-green-50">
+    <div class="absolute inset-0 opacity-10 pointer-events-none bg-[url('https://www.toptal.com/designers/subtlepatterns/patterns/dots.png')]"></div>
+    <div class="relative max-w-5xl mx-auto">
+      <h2 class="text-4xl font-bold mb-6 text-green-600" data-aos="fade-up">O que é o PEA?</h2>
+      <p class="text-lg leading-relaxed text-gray-700" data-aos="fade-up" data-aos-delay="200">
+        O Programa de Extensão Acadêmica (PEA) tem como missão desenvolver as habilidades técnicas e práticas dos estudantes, preparando-os para o mercado de trabalho. 
+        Hoje, contamos com parcerias em Angola, Moçambique, Guiné-Bissau, São Tomé e Cabo Verde.
+      </p>
+    </div>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section class="relative py-24 bg-green-50 overflow-hidden">
+    <!-- Ondas SVG -->
+    <div class="absolute inset-0">
+      <svg class="absolute bottom-0 w-full h-40 text-green-200" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="currentColor" fill-opacity="1" d="M0,256L80,240C160,224,320,192,480,170.7C640,149,800,139,960,149.3C1120,160,1280,192,1360,208L1440,224L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+    </div>
+
+    <div class="relative max-w-6xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-10 text-yellow-500" data-aos="fade-down">Funcionalidades</h2>
+      <div class="grid md:grid-cols-3 gap-10">
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500" data-aos="zoom-in">
+          <h3 class="text-2xl font-semibold mb-3 text-green-600">Cursos e Workshops</h3>
+          <p>Aprenda com conteúdos práticos e diretos.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 delay-100" data-aos="zoom-in" data-aos-delay="200">
+          <h3 class="text-2xl font-semibold mb-3 text-green-600">Certificados Digitais</h3>
+          <p>Ganhe reconhecimento válido para o mercado.</p>
+        </div>
+        <div class="bg-white p-8 rounded-2xl shadow hover:shadow-2xl transform hover:-translate-y-2 transition duration-500 delay-200" data-aos="zoom-in" data-aos-delay="400">
+          <h3 class="text-2xl font-semibold mb-3 text-green-600">Tokens PEA</h3>
+          <p>Use e troque tokens como recompensa pelo seu progresso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parcerias -->
+<section class="py-20 bg-gradient-to-r from-yellow-50 via-white to-green-50 relative">
+  <div class="absolute inset-0 opacity-5 bg-[url('https://www.toptal.com/designers/subtlepatterns/patterns/geometry2.png')]"></div>
+  <div class="relative">
+    <h2 class="text-4xl font-bold mb-6 text-center text-green-600" data-aos="fade-up">Nossos Parceiros</h2>
+    <p class="mb-10 text-center text-gray-600" data-aos="fade-up" data-aos-delay="200">Universidades e empreendedores de vários países da CPLP fazem parte desta iniciativa.</p>
+
+    <!-- Carrossel Infinito -->
+    <div class="relative w-full overflow-hidden">
+      <div class="flex gap-12 animate-scroll">
+        <img src="imagens/parceria 1.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 2.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 3.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 4.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 5.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 6.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 7.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 8.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 9.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 10.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+        <img src="imagens/parceria 11.png" class="h-20 object-contain hover:scale-110 transition duration-500">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- CTA Final com Google Forms -->
+  <section id="inscricao" class="bg-gradient-to-r from-green-600 to-yellow-400 text-white py-20 text-center">
+    <h2 class="text-4xl font-bold mb-4 animate__animated animate__fadeInDown">Junte-se ao PEA</h2>
+    <p class="mb-6 animate__animated animate__fadeInUp">Preencha o formulário abaixo e faça parte da nossa comunidade.</p>
+    
+    <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow-xl p-4 animate__animated animate__zoomIn">
+      <!-- Substituir pelo link do Google Forms -->
+      <iframe src="https://docs.google.com/forms/u/0/d/14weZxdgQIUHt_F0xxXsevp1awi49CMXIY2ha6QJP7xk/viewform?pli=1&pli=1&edit_requested=true" 
+        class="w-full h-[80vh] rounded-xl" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-8 text-center text-gray-600 bg-gray-100">
+    © 2025 <span class="text-green-600 font-semibold">PEA</span> - Programa de Extensão Acadêmica. Todos os direitos reservados.
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1200,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
